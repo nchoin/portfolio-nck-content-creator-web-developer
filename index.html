@@ -29,15 +29,103 @@
     <title>NCK Portfolio Homepage</title>
 </head>
 <body>
-    <h1>Nicole Choiniere</h1>
-    <p>Content Creator and Frontend Web Developer</p>
+    <!-- navigation bar from Bootstrap -->
+    <nav class="navbar sticky-top navbar-expand-lg nav-bg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/small-cream-logo.png" alt="logo" class="nav-logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link active nav-link-color"
+              aria-current="page"
+              href="index.html"
+              title="Link to Homepage"
+              >Home</a
+            >
+             <a
+              class="nav-link nav-link-color"
+              href="about.html"
+              title="Link to page About Me"
+              >About</a
+            >
+            <a
+              class="nav-link nav-link-color"
+              href="#"
+              title="Link to page web projects"
+              >Web Projects</a
+            >
+            <a
+              class="nav-link nav-link-color"
+              href="#"
+              title="Link to page design projects"
+              >Design Projects</a
+            >
+           
+            <a class="nav-link nav-link-color" href="index.html#contact-me" title="Link to my contact information"
+              >Contact </a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container text-center">
+      <header>
+        <div class="row">
+          <h1 class="name col-md-12 mt-5 ">
+            Nicole <br />
+            Choiniere-Kroeker
+          </h1>
+        </div>
+        <div class="row">
+            <h2 class="job-title mt-3">Content Creator & Front-end Web Developer</h2>
+          <h3 class="job-location col-md-12 mb-5">
+            based in New England region 🇺🇸USA
+          </h3>
+        </div>
+      </header>
+      <div class="row">
+        <div class="col-md-6 p-4 mx-auto">
+          <a href="mailto:nchoin2@gmail.com" class="contact-page-link"
+          id="contact-me"
+          title="Link to my contact information"
+            ><i class="fa-solid fa-envelope-open-text"></i>
+             
+            Contact Me</a
+          >
+        </div>
+      </div>
+        <div class="row  mb-5">
+            <div class="
+            p-4 ">
+            <img src="images/large-logo-midnight.png" alt="initials and logo" class="img-fluid ">
+        </div>
+        </div>
+        <!-- <div class="col-md-6 p-4">
+          <a href="/about.html" class="about-me-link" title="Link to page About Me">About Me</a>
+        </div> -->
+ 
+    
     <footer>
-        <a href="https://www.linkedin.com/in/nicole-choiniere-kroeker/" target="_blank"> <i class="fa-brands fa-linkedin"></i></a>
-       <a href="https://github.com/nchoin" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <div class="icon-container">
+        <a href="https://www.linkedin.com/in/nicole-choiniere-kroeker/" target="_blank"> <i class="fa-brands fa-linkedin icon"></i></a>
+       <a href="https://github.com/nchoin" target="_blank"><i class="fa-brands fa-github icon"></i></a>
         
-       <a href="https://github.com/nchoin/portfolio-nck-content-creator-web-developer" target="_blank">  <i class="fa-solid fa-folder-open"></i></a>
+       <a href="https://github.com/nchoin/portfolio-nck-content-creator-web-developer" target="_blank">  <i class="fa-solid fa-folder-open icon"></i></a>
       
-       
+       </div>
     </footer>
 </body>
 </html>
