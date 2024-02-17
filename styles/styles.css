@@ -1,67 +1,19 @@
 :root {
-  --border: 2px #ae80b8 solid;
-  --mauve: #ae80b8;
-  --lt-green-accent: #e7efde;
-  --lt-purple: #eadced;
-  --text-color: #56382d;
-  /* --text-color: #73260a; */
-  --cream: #fefbef;
-  /* original color scheme */
-  /* --dkblue: #2f6d80;
-  --grey: #e1e7e0;
-  --turquoise: #6aa4b0;
-  --white: #fefaf1;
-  --midnight: #2b4560;
-  --ltblue: #dbf5f0; */
+
   /* darker color scheme */
+  --cream: #fefbef;
   --dkblue: #394b6f;
   --grey: #cecfd3;
+  --ltbrown:#BC9476;
+  --ltblue: #c3ceda;
+  --midnight: #0d255d;
+  --putty:#e5e5d9;
+  --text-color: #56382d;
   --turquoise: #738fa7;
   --white: #fefaf1;
-  --midnight: #0d255d;
-  --ltblue: #c3ceda;
-  --putty:#e5e5d9;
-  --ltbrown:#BC9476;
-  /* connect to resume */
-  /* --dkblue: #69728D;
-  --grey: #b4b7ba;
-  --turquoise: #81858d;
- 
-  --midnight: #535a70;
-  --ltblue: #c7c6b9; */
+
 }
-/* classes for text color */
-.cream-text {
-  color: var(--cream);
-}
-.dk-blue-text {
-  color: var(--dkblue);
-}
-.grey-text {
-  color: var(--grey);
-}
-.midnight-text {
-  color: var(--midnight);
-}
-.turquoise-text {
-  color: var(--turquoise);
-}
-/* classes for background colors */
-.bg-cream {
-  background: var(--cream);
-}
-.bg-dk-blue {
-  background: var(--dkblue);
-}
-.bg-grey {
-  background: var(--grey);
-}
-.bg-midnight {
-  background: var(--midnight);
-}
-.bg-turquoise {
-  background: var(--turquoise);
-}
+
 body {
   background: var(--grey);
 }
@@ -138,6 +90,7 @@ body {
 footer {
   max-width: 100%;
 }
+
 .icon {
   color: var(--text-color);
   font-size: 2.5em;
@@ -198,7 +151,7 @@ footer {
 .app-title{
     font-family: "Forum", "Bellfair", serif;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 2.3em;
     color: var(--dkblue);
 }
 .app-info{
@@ -300,7 +253,7 @@ a:hover.email {
     font-size: 2.8em;
   }
 
-  .intro, .name-smaller, .name-smaller-light {
+  .intro, .name-smaller, .name-smaller-light, .app-title {
     font-size: 2em;
   }
 
@@ -317,7 +270,7 @@ a:hover.email {
 .app-image {
   max-width: 200px;
 }
-  .email {
+  .app-link{
     font-size: 1em;
   }
 }
