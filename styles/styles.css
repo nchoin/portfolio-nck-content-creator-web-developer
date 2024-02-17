@@ -151,7 +151,7 @@ footer {
   justify-content: space-evenly;
   margin-top: 100px;
 }
-/* css for Web Projects Page */
+/* css for Web, Design and About Pages*/
 .web-body {
   background: var(--putty)
 }
@@ -211,13 +211,20 @@ footer {
 .app-image {
   max-width: 300px;
 }
+.app-image:hover{
+  transform: scale(1.1);
+}
 .app-link {
   max-width: 250px;
+  background: var(--dkblue);
+  color: var(--putty);
+  font-family: "Forum", "Bellfair", serif;
+  font-size: 1.3em;
 }
 .app-link:hover {
   transition: all ease-in-out 0.3s;
-  color: var(--turquoise);
-  border: solid 2px var(--turquoise);
+  color: var(--midnight);
+  border: solid 2px var(--midnight);
 }
 /* about me page */
 .homepage-link {
@@ -284,6 +291,7 @@ a:hover.email {
 @media screen and (max-width: 775px){
   .app-image {
   max-width: 225px;
+}
 }
 }
 @media screen and (max-width: 630px) {
