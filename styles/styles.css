@@ -21,6 +21,7 @@
   --midnight: #0d255d;
   --ltblue: #c3ceda;
   --putty:#e5e5d9;
+  --ltbrown:#BC9476;
   /* connect to resume */
   /* --dkblue: #69728D;
   --grey: #b4b7ba;
@@ -141,9 +142,14 @@ footer {
   color: var(--text-color);
   font-size: 2.5em;
 }
+.icon-light{
+  color: var(--ltbrown);
+   font-size: 2.5em;
+}
 .icon-container {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 100px;
 }
 /* css for Web Projects Page */
 .web-body {
