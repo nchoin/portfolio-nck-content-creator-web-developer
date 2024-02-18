@@ -17,10 +17,14 @@
 body {
   background: var(--grey);
 }
-
 .nav-bg {
   background: var(--dkblue);
 }
+.navbar-toggler {
+    border-color: var(--putty);
+  
+  }
+
 .nav-logo {
   max-width: 200px;
   max-height: 150px;
