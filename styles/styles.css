@@ -151,8 +151,8 @@ footer {
 .about-info {
   font-family: "Forum", "Bellfair", serif;
   font-weight: bold;
-  line-height: 1.4;
-  font-size: 1.3em;
+  line-height: 1.3;
+  font-size: 1.4em;
   color: var(--grey);
   max-width: 80%;
   text-indent: 25px;
@@ -201,13 +201,16 @@ p.about {
   border: solid 2px var(--midnight);
 }
 
+@media screen and (max-width: 995px) {
+  
+    .about-image {
+      max-width: 90%;
+    }
+  }
 @media screen and (max-width: 930px) {
   .app-image {
     max-width: 250px;
 
-    .about-image {
-      max-width: 90%;
-    }
   }
   @media screen and (max-width: 775px) {
     .app-image {
@@ -237,7 +240,7 @@ p.about {
   }
 
   .about-info {
-    font-size: 1em;
+    font-size: 1.1em;
   }
   .app {
     max-width: 125px;
