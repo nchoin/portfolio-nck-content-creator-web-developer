@@ -73,17 +73,35 @@ body {
   background: var(--cream);
   color: var(--dkblue);
 }
-/* 
-.about-me-link {
-  background: var(--cream);
+
+.web-projects-link {
+  text-decoration: none;
+  background: var(--grey);
   color: var(--dkblue);
-  box-shadow: 3px 3px 5px 4px rgba(43, 69, 96, 0.8);
+  padding: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px rgba(206, 207, 211, 0.4);
 }
-.about-me-link:hover {
+.web-projects-link:hover {
   text-decoration: underline;
   background: var(--dkblue);
-  color: var(--cream);
-} */
+  color: var(--grey);
+  border: 2px solid var(--grey);
+}
+.design-projects-link {
+  text-decoration: none;
+  background: var(--dkblue);
+  color: var(--grey);
+  border: 2px solid var(--grey);
+  padding: 20px 10px;
+  border-radius: 5px;
+   box-shadow: 2px 2px 5px 2px rgba(206, 207, 211, 0.4);
+}
+.design-projects-link:hover {
+  text-decoration: underline;
+  background: var(--grey);
+  color: var(--dkblue);
+}
 
 .large-logo {
   max-width: 100%;
@@ -202,15 +220,13 @@ p.about {
 }
 
 @media screen and (max-width: 995px) {
-  
-    .about-image {
-      max-width: 90%;
-    }
+  .about-image {
+    max-width: 90%;
   }
+}
 @media screen and (max-width: 930px) {
   .app-image {
     max-width: 250px;
-
   }
   @media screen and (max-width: 775px) {
     .app-image {
