@@ -13,7 +13,7 @@
 }
 
 body {
-  background: var(--grey);
+  background: var(--turquoise);
 }
 .nav-bg {
   background: var(--dkblue);
@@ -43,22 +43,26 @@ body {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 4em;
-  color: var(--midnight);
+  color: var(--putty);
 }
 
 .job-title {
   font-family: "Bellefair", serif;
   font-size: 2.5em;
-  color: var(--dkblue);
+  color: var(--ltblue);
 }
 
 .job-location {
   font-family: "Bellefair", serif;
-  color: var(--midnight);
+  color: var(--cream);
   font-size: 1.8em;
   opacity: 0.7;
 }
 
+.buttons-section{
+  max-width: 800px;
+
+}
 .contact-page-link {
   border: var(--dkblue);
   text-decoration: none;
@@ -67,6 +71,7 @@ body {
   background: var(--dkblue);
   color: var(--cream);
   box-shadow: 3px 3px 5px 4px rgba(43, 69, 96, 0.8);
+  font-size: .9em;
   
 }
 .contact-page-link:hover {
@@ -76,7 +81,7 @@ body {
 
 }
 
-.web-projects-link {
+.projects-link {
   text-decoration: none;
   background: var(--grey);
   color: var(--dkblue);
@@ -84,13 +89,13 @@ body {
   border-radius: 5px;
   box-shadow: 2px 2px 5px 2px rgba(206, 207, 211, 0.4);
 }
-.web-projects-link:hover {
+.projects-link:hover {
   text-decoration: underline;
   background: var(--dkblue);
   color: var(--grey);
   border: 2px solid var(--grey);
 }
-.design-projects-link {
+/* .design-projects-link {
   text-decoration: none;
   background: var(--dkblue);
   color: var(--grey);
@@ -103,7 +108,7 @@ body {
   text-decoration: underline;
   background: var(--grey);
   color: var(--dkblue);
-}
+} */
 
 .large-logo {
   max-width: 100%;
@@ -136,7 +141,7 @@ footer {
   background: var(--dkblue);
 }
 .contact-body{
-  background:var(--turquoise)
+  background:var(--grey)
 }
 
 .name-smaller {
