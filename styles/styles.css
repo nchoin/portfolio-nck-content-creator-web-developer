@@ -67,6 +67,7 @@ body {
   background: var(--dkblue);
   color: var(--cream);
   box-shadow: 3px 3px 5px 4px rgba(43, 69, 96, 0.8);
+  
 }
 .contact-page-link:hover {
   text-decoration: underline;
@@ -133,6 +134,9 @@ footer {
 .about-body {
   background: var(--dkblue);
 }
+.contact-body{
+  background:var(--turquoise)
+}
 
 .name-smaller {
   font-family: "Playfair Display", serif;
@@ -149,6 +153,11 @@ footer {
 .page-job-title {
   font-family: "Bellefair", serif;
   color: var(--turquoise);
+  font-size: 1.4em;
+}
+.page-job-title-light {
+  font-family: "Bellefair", serif;
+  color: var(--midnight);
   font-size: 1.4em;
 }
 .page-title {
