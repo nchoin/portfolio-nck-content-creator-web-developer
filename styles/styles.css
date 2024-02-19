@@ -191,6 +191,21 @@ footer {
   text-indent: 25px;
   margin-bottom: 2px;
 }
+.about-footer-light {
+  font-family: "Forum", "Bellfair", serif;
+  font-size: 1em;
+  color: var(--ltbrown);
+  text-align: center;
+  margin-top: 3px;
+}
+.about-footer {
+  font-family: "Forum", "Bellfair", serif;
+  font-size: 1em;
+  color: var(--text-color);
+  text-align: center;
+  margin-top: 3px;
+}
+
 p.about::first-letter {
   color: var(--grey);
   font-size: xx-large;
