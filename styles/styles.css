@@ -42,20 +42,20 @@ body {
 .name {
   font-family: "Playfair Display", serif;
   font-weight: 700;
-  font-size: 4em;
+  font-size: 3em;
   color: var(--putty);
 }
 
 .job-title {
   font-family: "Bellefair", serif;
-  font-size: 2.5em;
+  font-size: 2em;
   color: var(--ltblue);
 }
 
 .job-location {
   font-family: "Bellefair", serif;
   color: var(--cream);
-  font-size: 1.8em;
+  font-size: 1.3em;
   opacity: 0.7;
 }
 
@@ -147,13 +147,13 @@ footer {
 .name-smaller {
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: 2.8em;
+  font-size: 2em;
   color: var(--dkblue);
 }
 .name-smaller-light {
   font-family: "Playfair Display", serif;
   font-weight: 500;
-  font-size: 2.8em;
+  font-size: 2em;
   color: var(--grey);
 }
 .page-job-title {
@@ -168,13 +168,13 @@ footer {
 }
 .page-title {
   font-family: "Playfair Display", serif;
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 700;
   color: var(--midnight);
 }
 .page-title-light {
   font-family: "Playfair Display", serif;
-  font-size: 3.5em;
+  font-size: 3em;
   font-weight: 700;
   color: var(--putty);
 }
