@@ -28,7 +28,8 @@ body {
 }
 .nav-link-color {
   color: var(--cream) !important;
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-size: 1.1em;
 }
 .nav-link-color:hover {
@@ -40,45 +41,54 @@ body {
   color: var(--ltblue) !important;
 }
 .name {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-weight: 700;
   font-size: 3em;
   color: var(--putty);
 }
-
+.title-pic {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 800px;
+}
 .job-title {
-  font-family: "Bellefair", serif;
+  /* font-family: "Bellefair", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-size: 2em;
   color: var(--ltblue);
 }
 
 .job-location {
-  font-family: "Bellefair", serif;
+  /* font-family: "Bellefair", serif; */
+  font-family: "Forum", "Bellfair", serif;
   color: var(--cream);
   font-size: 1.3em;
   opacity: 0.7;
 }
 
-.buttons-section{
+.buttons-section {
   max-width: 800px;
-
+  margin: 0 auto;
+  /* display: flex;
+  justify-content:space-evenly; */
 }
 .contact-page-link {
   border: var(--dkblue);
   text-decoration: none;
   padding: 20px 10px;
   border-radius: 5px;
+
   background: var(--dkblue);
   color: var(--cream);
   box-shadow: 3px 3px 5px 4px rgba(43, 69, 96, 0.8);
-  font-size: .9em;
-  
+  font-size: 0.9em;
+  font-family: "Forum", "Bellfair", serif;
 }
 .contact-page-link:hover {
   text-decoration: underline;
   background: var(--cream);
   color: var(--dkblue);
-
 }
 
 .projects-link {
@@ -140,40 +150,46 @@ footer {
 .about-body {
   background: var(--dkblue);
 }
-.contact-body{
-  background:var(--grey)
+.contact-body {
+  background: var(--grey);
 }
 
 .name-smaller {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-weight: 500;
   font-size: 2em;
   color: var(--dkblue);
 }
 .name-smaller-light {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-weight: 500;
   font-size: 2em;
   color: var(--grey);
 }
 .page-job-title {
-  font-family: "Bellefair", serif;
+  /* font-family: "Bellefair", serif; */
+  font-family: "Forum", "Bellfair", serif;
   color: var(--turquoise);
   font-size: 1.4em;
 }
 .page-job-title-light {
-  font-family: "Bellefair", serif;
+  /* font-family: "Bellefair", serif; */
+  font-family: "Forum", "Bellfair", serif;
   color: var(--midnight);
   font-size: 1.4em;
 }
 .page-title {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-size: 3em;
   font-weight: 700;
   color: var(--midnight);
 }
 .page-title-light {
-  font-family: "Playfair Display", serif;
+  /* font-family: "Playfair Display", serif; */
+  font-family: "Forum", "Bellfair", serif;
   font-size: 3em;
   font-weight: 700;
   color: var(--putty);
@@ -190,6 +206,7 @@ footer {
   max-width: 80%;
   text-indent: 25px;
   margin-bottom: 2px;
+  max-width: 700px;
 }
 .about-footer-light {
   font-family: "Forum", "Bellfair", serif;
@@ -259,12 +276,19 @@ p.about {
   .app-image {
     max-width: 250px;
   }
-  @media screen and (max-width: 775px) {
-    .app-image {
-      max-width: 225px;
-    }
+}
+@media screen and (max-width: 775px) {
+  .app-image {
+    max-width: 225px;
   }
 }
+@media screen and (max-width: 767px) {
+  .job-location,
+  .job-title {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 630px) {
   .title,
   .name,
@@ -300,6 +324,6 @@ p.about {
   }
 }
 /*  
-add this class to the linked in icon if I want it to bouce when hover over it.
+add this class to the linked in icon if I want it to bounce when hover over it.
 .fa-bounce
 */
