@@ -10890,9 +10890,9 @@
 
 },
 {
-"id":"Creating and Sharing Amazon Lists",
+"id":"creating-sharing-amazon-lists",
 "class":"project",
-"title":"Creating and Sharing Amazon Lists",
+"title":"creating-sharing-amazon-lists",
 "children":["Slide4629","Slide7270","Slide8321","Slide12152","Slide13504","Slide1411","Slide478","Slide14337","Slide17051","Slide18330","Slide18331","Slide19934","Slide20597","Slide778","Slide22797"],
 "roles":{
 "quiz":{
@@ -10932,9 +10932,10 @@
 
 }
 ,"contentReporting":{
-"CCCriteria":"quiz",
+"CCCriteria":"view",
 "CCData":{
-"quizData":"quiz_passed"
+"viewDataIsPercent":true,
+"viewData":0
 }
 ,
 "SCCriteria":"quiz",
